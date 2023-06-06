@@ -1,0 +1,164 @@
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  background-color: #f0d4fa;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-left: 180px;
+    transition:all 0.4s;    
+}
+
+.nav-buttons :hover {
+transform: scale(1.3);
+}
+
+.signUp{
+    margin-left: 10px;
+    border: 3px solid rgb(206, 229, 243);
+}
+
+.login{
+    border: 3px solid rgb(206, 229, 243); 
+}
+
+ul {
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 60px;
+}
+
+.mainHeading {
+  display: flex;
+  justify-content: left;
+  padding-top: 100px;
+  padding-left: 0px;
+  margin-left: 0;
+  white-space: pre-line;
+}
+
+.officeImage {
+  width: 100%;
+  border: 6px solid rgb(206, 229, 243); 
+}
+
+.form-label {
+  display: block;
+}
+
+.form-text {
+  margin-bottom: 1rem;
+  height: 30px;
+  width: 260px;
+}
+
+.form {
+  
+  margin-right: 140px;
+  margin-top: 170px;
+  margin-left: 90px;
+  border: 6px solid rgb(206, 229, 243);
+  border-spacing: 4px;
+  background-color: rgb(82, 166, 214);
+  height: 568px;
+  width: 330px;
+  padding-left: 50px;
+}
+
+input::placeholder {
+  color: blueviolet;
+  font-style: italic;
+  position: absolute;
+}
+
+button {
+  box-shadow: inset 0 0 0 0 rgb(98, 6, 218);
+  transition: all 0.5s ease-out 0s;
+  outline: none;
+}
+
+button:hover {
+  box-shadow: inset 125px 0 0 0 rgb(206, 229, 243);
+}
+
+footer {
+  background: rgb(82, 166, 214);
+  padding: 15px;
+  color: white;
+  z-index: 9999;
+  margin-top: 200px; 
+}
+
+.footer-ukText {
+  white-space: pre-line;
+  margin-right: 400px;
+}
+
+.footer-frText {
+  white-space: pre-line;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMediaIcons{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 600px;
+    margin-right: 600px;  
+}
+
+.socialMediaIcons:hover{
+    background-color: rgb(206, 229, 243);
+    transition: 0.5s;
+}
+
+.socialMediaIcons a :hover{
+    background-color: rgb(82, 166, 214);
+    transition: 0.6s;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+}
+
+.main-container {
+  display: flex;
+}
+
+.left-content {
+  width: 50%;
+}
